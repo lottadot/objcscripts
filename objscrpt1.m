@@ -10,8 +10,21 @@
  @note If you remove the shebang line from the first line of this file, you'll need to make sure the objc-run file is executable and in your $PATH
  
  @prerequesites
+ Xcode 5.1
  ruby (ruby 2.0.0p353 (2013-11-22 revision 43784) [x86_64-darwin13.0.0])
  gem install cocoapods
+ brew install objc-run
+ 
+ @howto
+  gem install cocoapods
+  brew install objc-run
+  source /etc/environment
+  git clone https://github.com/lottadot/objcscripts
+  cd objcscripts
+  ./objcscript1.m
+  
+  # then open another terminal tab/window
+  open http://localhost:33333
 */
 
 // The following instructs objc-run to run the cocoapods gem and use this as your 'podfile':
