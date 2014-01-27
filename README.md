@@ -14,17 +14,21 @@ Open two terminal windows/tabs.
 
 1. In the first terminal window/tab:
 
-	gem install cocoapods
-	brew install objc-run
-	source /etc/environment
-	cd /tmp/
-	git clone https://github.com/lottadot/objcscripts	cd objcscripts	
-	./objcscript1.m
+``` 
+gem install cocoapods
+brew install objc-run
+source /etc/environment
+cd /tmp/
+git clone https://github.com/lottadot/objcscripts
+cd objcscripts	
+./objcscript1.m
+```
 
 2. In the second terminal window/tab:
 
-	open http://localhost:33333
-
+```
+open http://localhost:33333
+```
 	You'll see the "Hello World" response in your browser. Congratuations, it worked.
 	
 
